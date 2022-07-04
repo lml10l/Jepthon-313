@@ -6,7 +6,7 @@
   "stack": "container",
     "env": {
         "STRING_SESSION": {
-            "description": "يرجى وضع كود سيشن تيليثون للحساب المساعد هنا ",
+            "description": "يرجى وضع كود سيشن تليثون (كود تيرمكس) للحساب المساعد هنا ",
             "required": true
         },
         "HEROKU_MODE": {

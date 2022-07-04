@@ -5,6 +5,14 @@
     "repository": "https://github.com/lMl10l/Jepthon-313",
   "stack": "container",
     "env": {
+        "API_ID": {
+            "description": "ضع هنا الايبي ايدي",
+            "required": true
+        },
+        "API_HASH": {
+            "description": "ضع هنا الايبي هاش",
+            "required": true
+        },
         "STRING_SESSION": {
             "description": "يرجى وضع كود سيشن تليثون (كود تيرمكس) للحساب المساعد هنا ",
             "required": true

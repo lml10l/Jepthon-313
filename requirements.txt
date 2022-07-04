@@ -1,0 +1,9 @@
+telethon==1.24.0
+py-tgcalls
+requests
+pillow
+aiofile
+yt-dlp
+aiofiles
+youtube-search-python
+speedtest-cli

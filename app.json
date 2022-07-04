@@ -1,0 +1,39 @@
+{
+    "name": "Telethon Music Bot",
+    "description": "Music allow you to stream music trought the telegram voice chat feature Based on Telethon.",
+    "keywords": ["JEPTHON", "JEPTHON-MUSIC", "music", "voice chat", "telegram", "Yukki", "Yukki Music", "Private Music", "telethon"],
+    "repository": "https://github.com/R0R77/Telethon-Music",
+  "stack": "container",
+    "env": {
+        "STRING_SESSION": {
+            "description": "يرجى وضع كود سيشن تيليثون للحساب المساعد هنا ",
+            "required": true
+        },
+        "HEROKU_MODE": {
+            "description": "لا تغير هذه نهائيا",
+            "required": true,
+            "value": "ENABLE"
+        },
+        "SUPPORT": {
+            "description": "ضع هنا معرف مجموعتك او قناتك بدون @",
+            "required": false,
+            "value": "JEPTHONSUPPORT"
+        },
+        "CHANNEL": {
+            "description": "ضع معرف قناتك اذا اردت غير ذلك اتركها ",
+            "required": false,
+            "value": "JEPTHON"
+        },
+        "BOT_USERNAME": {
+            "description": "هنا ضع معرف البوت بدون @",
+            "required": false,
+            "value": ""
+        },
+        "BOT_TOKEN": {
+            "description": "هنا ضع توكن بوتك",
+            "required": true,
+            "value": ""
+        }
+
+    }
+  }

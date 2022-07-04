@@ -5,7 +5,7 @@
     "repository": "https://github.com/lMl10l/Jepthon-313",
   "stack": "container",
     "env": {
-        "API_ID": {
+        "APP_ID": {
             "description": "ضع هنا الايبي ايدي",
             "required": true
         },

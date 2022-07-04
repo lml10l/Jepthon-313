@@ -28,7 +28,7 @@ from youtubesearchpython import VideosSearch
 fotoplay = "https://telegra.ph/file/b6402152be44d90836339.jpg"
 ngantri = "https://telegra.ph/file/b6402152be44d90836339.jpg"
 from JE313P import call_py, JE313P, client as Client
-owner = "1669178360"
+owner = "705475246"
 from JE313P.helpers.yt_dlp import bash
 from JE313P.helpers.chattitle import CHAT_TITLE
 from JE313P.helpers.queues import (

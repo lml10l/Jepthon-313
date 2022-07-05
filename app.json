@@ -6,10 +6,10 @@
   "stack": "container",
     "env": {
         "APP_ID": {
-            "description": "ضع هنا الايبي ايدي حساب المساعد",
+            "description": "ضع هنا الايبي ايدي حساب المساعد"
         },
         "API_HASH": {
-            "description": "ضع هنا الايبي هاش حساب المساعد",
+            "description": "ضع هنا الايبي هاش حساب المساعد"
         },
         "STRING_SESSION": {
             "description": "يرجى وضع كود سيشن تليثون (كود تيرمكس) للحساب المساعد هنا ",

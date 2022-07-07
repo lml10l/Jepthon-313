@@ -15,7 +15,7 @@ MISC_HELP = """
 
 !ايدي
 لعرض معلومات المستخدم بالرد عليه
-[**𖠄 𝗝𝗲𝗽𝘁𝗵𝗼𝗻 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 𖠄**](https://t.me/JEPTHON)
+[𖠄 𝗝𝗲𝗽𝘁𝗵𝗼𝗻 𝗨𝘀𝗲𝗿𝗯𝗼𝘁 𖠄](https://t.me/JEPTHON)
 """
 
 @JE313P.on(events.NewMessage(pattern="^[!?/]الايدي"))

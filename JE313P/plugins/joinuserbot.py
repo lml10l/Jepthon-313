@@ -16,7 +16,7 @@ from JE313P.status import *
 
 
 
-@JE313P.on(events.NewMessage(pattern="^[!?/]انضم ?(.*)"))
+
 @JE313P.on(events.NewMessage(pattern="^[!?/]انضم ?(.*)"))
 @is_admin
 async def _(e, perm):

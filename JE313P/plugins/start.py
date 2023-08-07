@@ -55,6 +55,4 @@ async def Hussein(event):
         chat_title = chat.title
         chat_username = chat.username
         chat_invite_link = await event.client.export_chat_invite_link(chat.id)
-        
-        await event.client.send_file(owner_id, Config.START_IMG,
-                                     caption=f"تمت إضافة البوت إلى مجموعة جديدة:\n\n👥 المجموعة: {chat_title}\n🌐 الرابط: {chat_invite_link}")
+        await event.client.send_message(owner_id, f"تمت إضافة البوت إلى مجموعة جديدة: {event.chat.title} (@{event.chat.username})")

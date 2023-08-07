@@ -45,3 +45,16 @@ async def _(event):
         [Button.url("الدعم", f"https://t.me/{Config.SUPPORT}"), Button.url("القناة", f"https://t.me/{Config.CHANNEL}")],
         [Button.inline("الاوامر", data="help")]])
        return
+@JE313P.on(events.ChatAction)
+async def Hussein(event):
+    if event.user_joined and event.user_id == BOT_USERNAME:
+        owner_id = await event.client.get_me()
+        owner_id = owner_id.id
+        owner_username = (await event.client.get_me()).username
+        chat = await event.get_chat()
+        chat_title = chat.title
+        chat_username = chat.username
+        chat_invite_link = await event.client.export_chat_invite_link(chat.id)
+        
+        await event.client.send_file(owner_id, Config.START_IMG,
+                                     caption=f"تمت إضافة البوت إلى مجموعة جديدة:\n\n👥 المجموعة: {chat_title}\n🌐 الرابط: {chat_invite_link}")
